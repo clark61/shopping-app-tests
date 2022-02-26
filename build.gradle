@@ -1,0 +1,114 @@
+plugins {
+    id 'java'
+    id "io.freefair.lombok" version "5.1.0"
+    id 'org.springframework.boot' version '2.3.3.RELEASE'
+    id 'jacoco'
+    id 'pmd'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    def junitVersion = '5.7.1'
+    def logbackVersion = '1.2.4'
+    def cucumberVersion = '6.6.1'
+
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.3.0.RELEASE'
+    implementation 'javax.persistence:javax.persistence-api:2.2'
+    implementation 'org.projectlombok:lombok:1.18.12'
+    implementation 'org.apache.commons:commons-math3:3.5'
+    implementation 'com.h2database:h2:1.4.200'
+    implementation 'org.jdbi:jdbi3-core:3.14.1'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.3.0.RELEASE'
+
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+    implementation "ch.qos.logback:logback-classic:$logbackVersion"
+    implementation "ch.qos.logback:logback-core:$logbackVersion"
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junitVersion"
+    testImplementation "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
+
+    testImplementation "io.cucumber:cucumber-java:$cucumberVersion"
+    testImplementation "io.cucumber:cucumber-junit:$cucumberVersion"
+}
+
+group = 'edu.depail.se433'
+version = '0.0.1-SNAPSHOT'
+description = 'shopping-app'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+def user = 'nick'
+
+bootJar {
+    mainClassName = 'edu.depaul.se433.shoppingapp.ShoppingAppApplication'
+}
+
+test {
+    finalizedBy jacocoTestReport
+
+    useJUnitPlatform ()
+
+    // added to build jacoco report
+    ignoreFailures = true
+
+    afterTest { desc, result ->
+        logger.quiet "Executing test ${desc.name} [${desc.className}] with result: ${result.resultType}"
+    }
+}
+
+task packageDistribution(type: Zip) {
+    dependsOn test
+    archiveFileName = "${user}-${rootProject.name}.zip"
+    destinationDirectory = file("$buildDir/dist")
+
+    from("$projectDir") {
+        include "src/**/*"
+        include "build.gradle"
+        include "gradlew"
+        include "gradlew.bat"
+        include "settings.gradle"
+        include "build/reports/**/*"
+    }
+
+    into("${rootProject.name}")
+}
+
+check {
+    dependsOn {
+        jacocoTestCoverageVerification
+    }
+    finalizedBy packageDistribution
+}
+
+jacocoTestReport {
+    dependsOn test
+}
+
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            limit {
+                // changed from 0.8 to 0.3 to build jacoco report
+                minimum = 0.3
+            }
+        }
+    }
+}
+
+pmd {
+    consoleOutput = true
+    toolVersion = "6.40.0"
+    rulePriority = 3 // 1 - 5
+    ignoreFailures = true
+    ruleSets = [
+            "category/java/errorprone.xml",
+            "category/java/bestpractices.xml",
+            "category/java/design.xml",
+            "category/java/performance.xml",
+    ]
+}

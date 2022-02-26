@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.40.0" timestamp="2021-11-17T22:22:40.935">
+<file name="C:\Users\Clark\Documents\Nick\HW\333\shopping-app\src\test\java\edu\depaul\se433\shoppingapp\BoundaryTests.java">
+<violation beginline="25" endline="143" begincolumn="8" endcolumn="1" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="BoundaryTests" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="25" endline="143" begincolumn="28" endcolumn="1" rule="TooManyMethods" ruleset="Design" package="edu.depaul.se433.shoppingapp" class="BoundaryTests" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#toomanymethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="26" endline="26" begincolumn="31" endcolumn="40" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="BoundaryTests" variable="calculator" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="35" endline="35" begincolumn="8" endcolumn="26" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="BoundaryTests" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Calculator Bounds" appears 4 times in this file; the first occurrence is on line 35
+</violation>
+<violation beginline="38" endline="40" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="BoundaryTests" method="standard0" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="46" endline="48" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="BoundaryTests" method="standard6" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="54" endline="56" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="BoundaryTests" method="nextDay0" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="62" endline="64" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="BoundaryTests" method="nextDay6" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="70" endline="72" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="BoundaryTests" method="standardShipping0" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="78" endline="80" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="BoundaryTests" method="standardShipping6" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+</file>
+<file name="C:\Users\Clark\Documents\Nick\HW\333\shopping-app\src\test\java\edu\depaul\se433\shoppingapp\EquivalencePartitioningTests.java">
+<violation beginline="26" endline="88" begincolumn="8" endcolumn="1" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="EquivalencePartitioningTests" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="27" endline="27" begincolumn="31" endcolumn="40" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="EquivalencePartitioningTests" variable="calculator" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="38" endline="40" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="EquivalencePartitioningTests" method="strongNormal" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="47" endline="49" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="EquivalencePartitioningTests" method="weakRobustValid" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="55" endline="58" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="EquivalencePartitioningTests" method="weakRobustInvalid" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+</file>
+<file name="C:\Users\Clark\Documents\Nick\HW\333\shopping-app\src\test\java\edu\depaul\se433\shoppingapp\PurchaseAgentTests.java">
+<violation beginline="24" endline="156" begincolumn="8" endcolumn="1" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="26" endline="26" begincolumn="25" endcolumn="37" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" variable="purchaseAgent" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="27" endline="27" begincolumn="23" endcolumn="37" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" variable="mockPurchaseDBO" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="29" endline="29" begincolumn="26" endcolumn="38" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" variable="zeroPurchases" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="30" endline="30" begincolumn="26" endcolumn="39" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" variable="singlePurchase" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="30" endline="30" begincolumn="11" endcolumn="40" rule="SingularField" ruleset="Design" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'singlePurchase' could be replaced by a local variable.
+</violation>
+<violation beginline="31" endline="31" begincolumn="26" endcolumn="38" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" variable="multiPurchase" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="39" endline="39" begincolumn="48" endcolumn="54" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="addPurchases" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Clark" appears 8 times in this file; the first occurrence is on line 39
+</violation>
+<violation beginline="39" endline="39" begincolumn="86" endcolumn="95" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="addPurchases" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "STANDARD" appears 10 times in this file; the first occurrence is on line 39
+</violation>
+<violation beginline="62" endline="62" begincolumn="5" endcolumn="73" rule="LawOfDemeter" ruleset="Design" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="testGetPurchases" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="64" endline="64" begincolumn="5" endcolumn="16" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="testGetPurchases" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="71" endline="71" begincolumn="5" endcolumn="82" rule="LawOfDemeter" ruleset="Design" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="testGetPurchasesEmpty" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="71" endline="71" begincolumn="39" endcolumn="54" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="testGetPurchasesEmpty" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Zero Purchases" appears 4 times in this file; the first occurrence is on line 71
+</violation>
+<violation beginline="73" endline="73" begincolumn="5" endcolumn="16" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="testGetPurchasesEmpty" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="79" endline="84" begincolumn="3" endcolumn="3" rule="JUnitTestContainsTooManyAsserts" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="testGetPurchasesWithError" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junittestcontainstoomanyasserts" priority="3">
+Unit tests should not contain more than 1 assert(s).
+</violation>
+<violation beginline="83" endline="83" begincolumn="5" endcolumn="16" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="testGetPurchasesWithError" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="87" endline="87" begincolumn="8" endcolumn="24" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "averagePurchase" appears 4 times in this file; the first occurrence is on line 87
+</violation>
+<violation beginline="94" endline="94" begincolumn="5" endcolumn="73" rule="LawOfDemeter" ruleset="Design" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="averagePurchaseSingleItem" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="96" endline="96" begincolumn="5" endcolumn="16" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="averagePurchaseSingleItem" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="103" endline="103" begincolumn="5" endcolumn="82" rule="LawOfDemeter" ruleset="Design" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="averagePurchaseNoItem" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="105" endline="105" begincolumn="5" endcolumn="16" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="averagePurchaseNoItem" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="112" endline="112" begincolumn="5" endcolumn="73" rule="LawOfDemeter" ruleset="Design" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="averagePurchaseNominalItems" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="114" endline="114" begincolumn="5" endcolumn="16" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="averagePurchaseNominalItems" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="123" endline="123" begincolumn="44" endcolumn="52" rule="AvoidDuplicateLiterals" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="averagePurchaseComplex" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal "Complex" appears 6 times in this file; the first occurrence is on line 123
+</violation>
+<violation beginline="133" endline="133" begincolumn="5" endcolumn="77" rule="LawOfDemeter" ruleset="Design" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="averagePurchaseComplex" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="136" endline="136" begincolumn="5" endcolumn="16" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="averagePurchaseComplex" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="145" endline="145" begincolumn="5" endcolumn="67" rule="LawOfDemeter" ruleset="Design" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="saveCall" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="154" endline="154" begincolumn="5" endcolumn="64" rule="LawOfDemeter" ruleset="Design" package="edu.depaul.se433.shoppingapp" class="PurchaseAgentTests" method="saveCallNull" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+</file>
+<file name="C:\Users\Clark\Documents\Nick\HW\333\shopping-app\src\test\java\edu\depaul\se433\shoppingapp\ShoppingCartTests.java">
+<violation beginline="20" endline="54" begincolumn="8" endcolumn="1" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="ShoppingCartTests" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="23" endline="23" begincolumn="24" endcolumn="27" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp" class="ShoppingCartTests" variable="cart" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="32" endline="34" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="ShoppingCartTests" method="testCount" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="33" endline="33" begincolumn="5" endcolumn="16" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="ShoppingCartTests" method="testCount" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="38" endline="40" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="ShoppingCartTests" method="testCost" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="39" endline="39" begincolumn="5" endcolumn="16" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="ShoppingCartTests" method="testCost" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="44" endline="46" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="ShoppingCartTests" method="testGetItems" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="45" endline="45" begincolumn="5" endcolumn="16" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="ShoppingCartTests" method="testGetItems" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+<violation beginline="50" endline="53" begincolumn="10" endcolumn="3" rule="JUnit5TestShouldBePackagePrivate" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="ShoppingCartTests" method="testClear" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junit5testshouldbepackageprivate" priority="3">
+JUnit 5 tests should be package-private.
+</violation>
+<violation beginline="52" endline="52" begincolumn="5" endcolumn="16" rule="JUnitAssertionsShouldIncludeMessage" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp" class="ShoppingCartTests" method="testClear" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#junitassertionsshouldincludemessage" priority="3">
+JUnit assertions should include a message
+</violation>
+</file>
+<file name="C:\Users\Clark\Documents\Nick\HW\333\shopping-app\src\test\java\edu\depaul\se433\shoppingapp\step_definitions\PurchaseSteps.java">
+<violation beginline="27" endline="27" begincolumn="31" endcolumn="40" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp.step_definitions" class="PurchaseSteps" variable="calculator" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="27" endline="27" begincolumn="31" endcolumn="40" rule="ImmutableField" ruleset="Design" package="edu.depaul.se433.shoppingapp.step_definitions" class="PurchaseSteps" variable="calculator" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'calculator' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="29" endline="29" begincolumn="18" endcolumn="22" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp.step_definitions" class="PurchaseSteps" variable="state" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="30" endline="30" begincolumn="24" endcolumn="35" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp.step_definitions" class="PurchaseSteps" variable="shippingType" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="32" endline="32" begincolumn="24" endcolumn="27" rule="BeanMembersShouldSerialize" ruleset="Error Prone" package="edu.depaul.se433.shoppingapp.step_definitions" class="PurchaseSteps" variable="cart" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="32" endline="32" begincolumn="24" endcolumn="27" rule="ImmutableField" ruleset="Design" package="edu.depaul.se433.shoppingapp.step_definitions" class="PurchaseSteps" variable="cart" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'cart' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="36" endline="36" begincolumn="9" endcolumn="49" rule="LiteralsFirstInComparisons" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp.step_definitions" class="PurchaseSteps" method="setShippingType" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#literalsfirstincomparisons" priority="3">
+Position literals first in String comparisons
+</violation>
+<violation beginline="36" endline="36" begincolumn="9" endcolumn="49" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Best Practices" package="edu.depaul.se433.shoppingapp.step_definitions" class="PurchaseSteps" method="setShippingType" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_bestpractices.html#positionliteralsfirstincaseinsensitivecomparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="55" endline="55" begincolumn="34" endcolumn="48" rule="LawOfDemeter" ruleset="Design" package="edu.depaul.se433.shoppingapp.step_definitions" class="PurchaseSteps" method="the_final_cost_is" externalInfoUrl="https://pmd.github.io/pmd-6.40.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>

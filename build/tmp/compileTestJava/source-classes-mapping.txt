@@ -1,0 +1,12 @@
+edu/depaul/se433/shoppingapp/PurchaseAgentTests.java
+ edu.depaul.se433.shoppingapp.PurchaseAgentTests
+edu/depaul/se433/shoppingapp/EquivalencePartitioningTests.java
+ edu.depaul.se433.shoppingapp.EquivalencePartitioningTests
+edu/depaul/se433/shoppingapp/step_definitions/PurchaseSteps.java
+ edu.depaul.se433.shoppingapp.step_definitions.PurchaseSteps
+edu/depaul/se433/shoppingapp/ShoppingCartTests.java
+ edu.depaul.se433.shoppingapp.ShoppingCartTests
+edu/depaul/se433/shoppingapp/CucumberTestRunner.java
+ edu.depaul.se433.shoppingapp.CucumberTestRunner
+edu/depaul/se433/shoppingapp/BoundaryTests.java
+ edu.depaul.se433.shoppingapp.BoundaryTests
